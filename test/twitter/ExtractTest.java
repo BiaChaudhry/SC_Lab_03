@@ -14,7 +14,10 @@ import org.junit.Test;
 public class ExtractTest {
 
     /*
-     * TODO: your testing strategies for these methods should go here.
+     * We tried testing with multiple tweets and no tweets.
+     * The function getTimespan() takes a list of tweets so we tried sending 1 tweet, 2 tweets, 3 tweets and no tweets.
+     * Then we tested getMentionedUsers(). This function takes an array of tweets and returns mentioned usenames.
+     * Again we tried with 1 mention 1 user, 2 different mentions 1 user, and 2 same mentions 1 user
      * See the ic03-testing exercise for examples of what a testing strategy comment looks like.
      * Make sure you have partitions.
      */
