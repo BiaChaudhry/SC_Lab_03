@@ -12,9 +12,17 @@ import org.junit.Test;
 public class FilterTest {
 
     /*
-     * TODO: your testing strategies for these methods should go here. See the
-     * ic03-testing exercise for examples of what a testing strategy comment
-     * looks like. Make sure you have partitions.
+     * testing strategies for these methods should go here. 
+     * In this we filtered the tweets using username, text and timespan of the tweet
+     * USERNASME TESTS
+     * we tried finding user of tweet1 from multiple tweets.
+     * We searched for user in tweets they had not tweeted, returning empty result
+     * We also searched for user with username in CAPS testing upper and lowercase
+     * TIMESPAN TESTS
+     * In timespan we sent multiple timespans and searched for them in multiple tweets. Function returned multiple tweets with those timespans
+     * We also sent timespan that was in no tweets and it returned empty
+     * TEXT TESTS
+     * We searched different tweets for a ceratin word and that tweet was filtered out that had the word
      */
 
     private static final Instant d1 = Instant.parse("2016-02-17T10:00:00Z");
