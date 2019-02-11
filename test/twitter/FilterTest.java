@@ -12,17 +12,9 @@ import org.junit.Test;
 public class FilterTest {
 
     /*
-     * testing strategies for these methods should go here. 
-     * In this we filtered the tweets using username, text and timespan of the tweet
-     * USERNASME TESTS
-     * we tried finding user of tweet1 from multiple tweets.
-     * We searched for user in tweets they had not tweeted, returning empty result
-     * We also searched for user with username in CAPS testing upper and lowercase
-     * TIMESPAN TESTS
-     * In timespan we sent multiple timespans and searched for them in multiple tweets. Function returned multiple tweets with those timespans
-     * We also sent timespan that was in no tweets and it returned empty
-     * TEXT TESTS
-     * We searched different tweets for a ceratin word and that tweet was filtered out that had the word
+     * TODO: your testing strategies for these methods should go here. See the
+     * ic03-testing exercise for examples of what a testing strategy comment
+     * looks like. Make sure you have partitions.
      */
 
     private static final Instant d1 = Instant.parse("2019-02-17T10:00:00Z");
@@ -33,9 +25,9 @@ public class FilterTest {
 
     private static final Tweet tweet1 = new Tweet(1, "alyssa", "is it reasonable to talk about rivest so much?", d1);
     private static final Tweet tweet2 = new Tweet(2, "bbitdiddle", "rivest talk in 30 minutes #hype", d2);
-    private static final Tweet tweet3 = new Tweet(3, "Farhana", "testttt", d3);
+    private static final Tweet tweet3 = new Tweet(3, "Farhana", "can we please pass this test??", d3);
     
-    private static final Tweet tweet5 = new Tweet(5, "Ramlah", "testttt",d5);
+    private static final Tweet tweet5 = new Tweet(5, "Ramlah", "@test1 @test2 can't believe I'm doing another",d5);
     private static final Tweet tweet6 = new Tweet(6, "Bia", "",d6);
 
     @Test(expected = AssertionError.class)
