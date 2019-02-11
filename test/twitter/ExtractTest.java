@@ -1,3 +1,4 @@
+
 package twitter;
 
 import static org.junit.Assert.*;
@@ -18,12 +19,12 @@ public class ExtractTest {
      * Make sure you have partitions.
      */
     
-    private static final Instant d1 = Instant.parse("2016-02-17T10:00:00Z");
-    private static final Instant d2 = Instant.parse("2016-02-17T11:00:00Z");
-    private static final Instant d3 = Instant.parse("2016-02-17T11:25:00Z");
-    private static final Instant d4 = Instant.parse("2016-02-17T11:45:00Z");
-    private static final Instant d5 = Instant.parse("2016-02-17T11:47:00Z");
-    private static final Instant d6 = Instant.parse("2016-02-17T10:47:00Z");
+    private static final Instant d1 = Instant.parse("2019-02-10T10:00:00Z");
+    private static final Instant d2 = Instant.parse("2019-02-10T11:00:00Z");
+    private static final Instant d3 = Instant.parse("2019-02-10T11:25:00Z");
+    private static final Instant d4 = Instant.parse("2019-02-10T11:45:00Z");
+    private static final Instant d5 = Instant.parse("2019-02-10T11:47:00Z");
+    private static final Instant d6 = Instant.parse("2019-02-10T10:47:00Z");
     
     private static final Tweet tweet1 = new Tweet(1, "alyssa", "is it reasonable to talk about rivest so much?", d1);
     private static final Tweet tweet2 = new Tweet(2, "bbitdiddle", "rivest talk in 30 minutes #hype", d2);
